@@ -3,6 +3,51 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+}
 
+body { background-color: #141414;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+div { background-color: #1F1F1F;
+width: 384px;
+padding: 40px;
+text-align: center;
+border-radius: 12px;
+}
+
+h1, p, a {
+    color: #FFF;
+}
+
+div img { 
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+div h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 4px;
+
+}
+div strong {
+    color: #C4F82A;
+    font-size: 14px;
+    line-height: 21px;
+}
+div p { 
+    margin-block: 24px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+div a { 
+    display: block;
 
 }
